@@ -1,7 +1,5 @@
 # ChatGPT-API Demo
 
-English | [简体中文](./README.zh-CN.md)
-
 A demo repo based on [OpenAI GPT-3.5 Turbo API.](https://platform.openai.com/docs/guides/chat)
 
 **🍿 Live preview**: https://chatgpt.ddiu.me
@@ -109,28 +107,3 @@ You can control the website through environment variables.
 | `SITE_PASSWORD` | Set password for site. If not set, site will be public | `null` |
 | `OPENAI_API_MODEL` | ID of the model to use. [List models](https://platform.openai.com/docs/api-reference/models/list) | `gpt-3.5-turbo` |
 
-
-## Frequently Asked Questions
-
-Q: TypeError: fetch failed (can't connect to OpenAI Api)
-
-A: Configure environment variables `HTTPS_PROXY`，reference: https://github.com/ddiu8081/chatgpt-demo/issues/34
-
-Q: throw new TypeError(${context} is not a ReadableStream.)
-
-A: The Node version needs to be `v18` or later，reference: https://github.com/ddiu8081/chatgpt-demo/issues/65
-
-Q: Accelerate domestic access without the need for proxy deployment tutorial?
-
-A: You can refer to this tutorial: https://github.com/ddiu8081/chatgpt-demo/discussions/270
-## Contributing
-
-This project exists thanks to all those who contributed.
-
-Thank you to all our supporters!🙏
-
-[![img](https://contributors.nn.ci/api?repo=ddiu8081/chatgpt-demo)](https://github.com/ddiu8081/chatgpt-demo/graphs/contributors)
-
-## License
-
-MIT © [ddiu8081](https://github.com/ddiu8081/chatgpt-demo/blob/main/LICENSE)
